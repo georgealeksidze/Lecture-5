@@ -1,66 +1,140 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    background-color: darkgray;
+    background-color: rgb(199, 197, 197);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  
 }
 .mainwhitebox {
-    display:  flex;
-    flex-direction: column;
-    justify-content: center;
+    display: flex;
     width: 736px;
     height: 512px;
     background-color: white;
     border-radius: 32px;
-
-    
 }
 .bluebox {
     display: flex;
-    justify-content: center;     
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     width: 368px;
-    height: 512px;
-    background-color: blue;
+    height: 100%;
+    background-color: #2F2CE9;
+    padding: 40px 20px;
     border-radius: 32px;
+}
+.bluebox h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #cac9ff;
 }
 .roundbox {
     display: flex;
-    align-self: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;    
     width: 200px;
     height: 200px;
     background-color: #4D21C9;
-    margin-top: -70px;    
-    border-radius: 360px;
-  
-}
-h2 {    
-    margin-top: 40px;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 24px;
-
-}
-h1 {    
-    font-weight: 800;
+    border-radius: 50%;
+ }
+.roundbox h1 {
     font-size: 72px;
-    line-height: 72px;
+    font-weight: 800;
+    color: white;
+    line-height: 1;
+ }
+.round1 {
+    color: rgba(255, 255, 255, 0.466);
+}    
+.bluebox h3 {
+    font-size: 32px;
+    font-weight: 700;
     color: white;
 }
-span {    
-    font-weight: 700;
+.bluebox p {
     font-size: 18px;
-    line-height: 23px;
-    color: rgba(255, 255, 255, 0.253);
-
+    color: #cac9ff;
+    text-align: center;
+    line-height: 1.4;
+    width: 80%;
 }
+.whitebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 368px;
+    height: 100%;
+    padding: 40px 32px;
+    background-color: white;
+    border-radius: 50%;
+}
+.whitebox h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #303b5a;
+}
+.reaction {    
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff6f6;
+    color: #ff5555;
+}
+.memory {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fffbea;
+    color: #ffb21e;
+}
+.verbal {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f3fcf7;
+    color: #00bb8f;
+}
+.visual {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f3f3fd;
+    color: #1125d6;
+}
+.score{
+    color: black;
+   
+}
+.score1 {
+    color: rgba(0, 0, 0, 0.295)
+}
+.continue {
+    display: flex;
+    justify-content: center;
+    background-color: #303b5a;
+    color: white;
+    border-radius: 32px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;  
+    }
+
 
